@@ -1,0 +1,34 @@
+.link {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 50px;
+  min-width: 80px;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px #fff;
+}
+
+.link:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:first-of-type {
+  margin-right: 10px;
+}

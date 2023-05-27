@@ -1,35 +1,13 @@
-.listItem {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 600px;
-  padding: 10px 10px 10px 15px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5px;
-  border-radius: 50px;
-  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
-}
-
-.personData {
+.wrapper {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
 }
 
-.name {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: 500;
+.username {
+  margin-right: 10px;
 }
 
-.number {
-  margin-right: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.deleteBtn {
+.button {
   border: none;
   text-decoration: none;
   display: inline-flex;
@@ -42,20 +20,19 @@
     #12d8fa 51%,
     #1fa2ff 100%
   );
-  padding: 8px 24px;
+  padding: 10px 30px;
   text-align: center;
   text-transform: lowercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: #fff;
+  color: white;
   box-shadow: 0 0 20px #eee;
   border-radius: 50px;
   min-width: 50px;
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px #fff;
 }
 
-.deleteBtn:hover {
-  box-shadow: none;
+.button:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
