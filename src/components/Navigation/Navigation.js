@@ -7,7 +7,7 @@ export default function Navigation() {
   const isLoggedIn = useSelector(selectIsLoggedIn);
 
   return (
-    <nav>
+    <nav className={css.navWrap}>
       <NavLink to="/" className={css.link}>
         Home
       </NavLink>

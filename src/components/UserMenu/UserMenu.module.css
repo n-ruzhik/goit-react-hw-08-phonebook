@@ -1,9 +1,18 @@
 .wrapper {
+  @media screen and (max-width: 767px) {
+    display: flex;
+  }
   display: inline-flex;
   align-items: center;
 }
 
 .username {
+  @media screen and (max-width: 767px) {
+    /* margin-right: 0px; */
+    margin-top: 0;
+    margin-bottom: 7px;
+  }
+
   margin-right: 10px;
 }
 
@@ -20,15 +29,17 @@
     #12d8fa 51%,
     #1fa2ff 100%
   );
-  padding: 10px 30px;
+  min-width: 50px;
+  padding: 5px 15px;
+
   text-align: center;
   text-transform: lowercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;
+  color: #fff;
   box-shadow: 0 0 20px #eee;
   border-radius: 50px;
-  min-width: 50px;
+
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px #fff;
 }
 
